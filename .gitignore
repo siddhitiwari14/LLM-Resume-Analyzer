@@ -1,0 +1,79 @@
+# 🔹 Python cache & compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 🔹 Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# 🔹 Environment variables (VERY IMPORTANT)
+.env
+.env.*
+*.env
+
+# 🔹 API keys / secrets
+secrets.json
+config.yaml
+
+# 🔹 Logs
+logs/
+*.log
+
+# 🔹 OS files
+.DS_Store
+Thumbs.db
+
+# 🔹 IDE / Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🔹 Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# 🔹 Build / distribution
+build/
+dist/
+*.egg-info/
+
+# 🔹 FastAPI / backend temp files
+*.sqlite3
+*.db
+
+# 🔹 Uploaded resumes / user files
+uploads/
+temp/
+media/
+
+# 🔹 ML / AI artifacts (FAISS, embeddings, models)
+*.faiss
+*.pkl
+*.joblib
+*.h5
+*.pt
+*.bin
+
+# 🔹 Node modules (if using React frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🔹 Frontend build
+frontend/build/
+frontend/dist/
+
+# 🔹 Coverage reports
+.coverage
+htmlcov/
+
+# 🔹 Docker
+*.dockerignore
+
+# 🔹 Misc
+*.bak
+*.tmp
